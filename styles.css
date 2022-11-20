@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
-  display: flex;
   font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  height: 92vh;
 }
 .column {
   flex: 1;
@@ -39,4 +41,19 @@ body {
   background-color: #00000067;
   cursor: pointer;
   border-radius: 5px;
+}
+.text-animation {  
+  background-color: rgb(29, 61, 248);  
+}
+
+.text__animation--content {
+  height: 8vh;
+  display: block;
+  font-size: 65px;
+  color: transparent;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(12, 212, 195);
+  background-color: rgb(29, 61, 248);
+  text-align: center;
 }
